@@ -10,7 +10,33 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Hellow NextJs</h1>
+      {/* 
+      jsx記法というものになり、なんだそれとなり
+      return文を見つけ、function XXX()というものもあり、ちょっと難しいのではと感じるかもしれませんが
+      下記を見ていただければ、あれ？HTMLとやっていることほとんど一緒ではと思っていただけるかなと思います。
+
+      HTMLとちょっと違うのはスタイリングが、classname='なんちゃら'だったのが、className={styles.なんちゃら}になったことです
+      stylesはファイル上部でHome.modules.cssをstylesというモジュールでimportしているものです
+      styles.containerとすることで、Home.modules.css内の.container {}のスタイリングがあたっていることになります
+      */}
+
+      {/* 
+      pagesフォルダしたにpracticeフォルダを作成、jsx.tsxしてあります。
+      お試しにいろいろ書いて使ってみてください
+
+      一番最上位READMEファイルに書いたとおり、pagesフォルダ下はファイル名がそのままURLとなります。
+      http://localhost:3000/practice/jsxをブラウザに入力するとjsx.tsxファイルの内容が表示されるので
+      HTMLの勉強で習ったことを書いてみると同じように描画されるかと思います
+      */}
+      <div className={styles.container}>
+        <div className={styles.header}>Header</div>
+        <div className={styles.main}>
+          <div className={styles.side1}>Side1</div>
+          <div className={styles.contents}>Contents</div>
+          <div className={styles.side2}>Side2</div>
+        </div>
+        <div className={styles.footer}>Footer</div>
+      </div>
     </>
   )
 }
