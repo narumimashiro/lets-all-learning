@@ -7,3 +7,9 @@
 npx create-next-appしたのち、一旦は不要なものや小難しいものを排除して
 
 Hellow NextJsのみ表示されるページにした
+
+## jsx_looks_like_html
+
+Topページをカラーリングした要素でパーツ配置してみた
+
+JSXってHTMLとほぼ同じだよということを実感していただくためのBranch
