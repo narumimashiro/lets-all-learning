@@ -1,6 +1,6 @@
 # branchの概要
 
-## start branch
+## start_branch
 
 本当に初期の初期状態
 
@@ -8,13 +8,13 @@ npx create-next-appしたのち、一旦は不要なものや小難しいもの�
 
 Hellow NextJsのみ表示されるページにした
 
-## jsx looks like html
+## jsx_looks_like_html
 
 Topページをカラーリングした要素でパーツ配置してみた
 
 JSXってHTMLとほぼ同じだよということを実感していただくためのBranch
 
-## jump to another page
+## jump_to_another_page
 
 ページからページへの遷移のためのリンクを作った
 
