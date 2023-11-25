@@ -2,6 +2,8 @@
 // stylesフォルダにJSX.modules.cssファイルを作成してimportしてみましょう
 // import 
 
+import React from "react"
+
 const JSX = () => {
 
   return (
